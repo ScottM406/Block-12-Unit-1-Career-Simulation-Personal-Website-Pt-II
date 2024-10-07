@@ -1,0 +1,128 @@
+html {
+  background-image: url(./bg.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+body {
+  margin-top: 2.5%;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-bottom: 1%;
+  background-color: rgba(222, 184, 135, 0.822);
+  border: solid  black;
+  border-width: 3;
+  
+}
+
+header {
+  text-align: center;
+  background-color: rgba(222, 184, 135, 0.05);
+  height: 15%;
+  margin-bottom: 4%;
+}
+
+hr {
+  border: solid black;
+  border-width: 1;
+}
+
+nav {
+  font-size: 28;
+
+}
+
+nav a {
+  margin-right: 2%;
+}
+
+h1 {
+  font-size: 48;
+  font-weight: 4000;
+}
+
+#home-bio {
+  float: left;
+  height:75%;
+  width: 39%;
+  font-size: 28;
+  font-family: fantasy;
+  font-style: italic;
+  text-indent: 7%;
+  margin-left: 7.5%;
+  margin-top: 8%;
+}
+
+#home-pic {
+  float: right;
+  height: 75%;
+  width:35%;
+  margin-right: 3%;
+}
+
+.passions {
+  height: 80%;
+  width: 33.32%;
+  float: left;
+}
+
+.passions {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.passions img {
+  width: 90%;
+  height: 30%;
+  margin-left: 2.5%
+}
+
+.passions p {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.projects {
+  height:27%;
+}
+
+.projects img {
+  float: left;
+  width: 40%;
+  height:90%;
+  margin-left:2.5%;
+}
+
+.projects h2 {
+  margin-left: 67%;
+}
+
+.projects p {
+  float: left;
+  width: 50%;
+  margin-left: 3%;
+}
+
+#contact-module {
+  text-align: center;
+  font-size: 28;
+}
+
+#contact-module input {
+  height:5%;
+  border: solid black;
+  border-width: 2;
+}
+
+#contact-module #message-block {
+  height: 35%;
+  width: 40%;
+  margin-top: 1%;
+}
+
+#submit-button {
+  float:right;
+  margin-right: 30%;
+  margin-top: 1%;
+}
