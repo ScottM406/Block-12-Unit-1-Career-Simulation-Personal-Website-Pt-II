@@ -12,6 +12,10 @@ body {
   background-color: rgba(222, 184, 135, 0.822);
   border: solid  black;
   border-width: 3;
+
+  @media screen {
+    min-height: 1000;
+  }
   
 }
 
@@ -95,13 +99,19 @@ h1 {
 }
 
 .projects h2 {
-  margin-left: 67%;
+  float: right;
+  margin-right: 20%;
 }
 
 .projects p {
   float: left;
   width: 50%;
   margin-left: 3%;
+}
+
+#portfolio-body {
+  display: flex;
+  flex-direction: column;
 }
 
 #contact-module {
