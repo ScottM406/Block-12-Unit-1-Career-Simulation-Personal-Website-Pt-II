@@ -9,7 +9,7 @@ body {
   margin-left: 10%;
   margin-right:10%;
   margin-bottom: 1%;
-  background-color: rgba(222, 184, 135, 0.822);
+  background-color: rgba(223, 175, 113, 0.816);
   border: solid  black;
   border-width: 3;
 
@@ -43,6 +43,8 @@ nav a {
 h1 {
   font-size: 48;
   font-weight: 4000;
+  font-stretch:ultra-expanded;
+  text-decoration: solid;
 }
 
 #home-bio {
@@ -60,8 +62,8 @@ h1 {
 #home-pic {
   float: right;
   height: 75%;
-  width:35%;
-  margin-right: 3%;
+  width:40%;
+  margin-right: 7.5%;
 }
 
 .passions {
@@ -101,12 +103,15 @@ h1 {
 .projects h2 {
   float: right;
   margin-right: 20%;
+  font-family: fantasy;
 }
 
 .projects p {
   float: left;
   width: 50%;
   margin-left: 3%;
+  font-family: fantasy;
+  font-size: 12;
 }
 
 #portfolio-body {
@@ -135,4 +140,33 @@ h1 {
   float:right;
   margin-right: 30%;
   margin-top: 1%;
+}
+
+@media(max-width:1396px) {
+  
+  html { 
+    min-height: 110vh;
+  }
+  body {
+    min-width: 1130px;
+    display: flex;
+    flex-direction: column;
+  }
+  body #home-bio {
+    width:83%;
+    height:20%;
+  }
+  body #home-pic {
+    width: 90%;
+    margin-left: 5%;
+  }
+  body .passions {
+    width: 100%;
+  }
+  body .passions img {
+    height: 33vh;
+  }
+  body .passions p {
+    text-align: center;
+  }
 }
