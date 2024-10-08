@@ -155,10 +155,12 @@ h1 {
   body #home-bio {
     width:83%;
     height:20%;
+    margin-top: 4%;
   }
   body #home-pic {
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 2%;
   }
   body .passions {
     width: 100%;
@@ -168,5 +170,16 @@ h1 {
   }
   body .passions p {
     text-align: center;
+  }
+   body #contact-module input {
+    height: 30%;
+  }
+  body #contact-module #message-block {
+    height: 200%;
+  }
+  body #submit-button {
+    margin: 0;
+   margin-top: 33%;
+   margin-left: 60%;
   }
 }
